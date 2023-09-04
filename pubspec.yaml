@@ -1,0 +1,78 @@
+name: florazon
+description: Florazon
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=2.19.5 <3.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.5
+  flutter_svg: ^0.23.0+1
+  hexcolor: ^3.0.1
+  easy_localization: ^3.0.1
+  http: ^0.13.5
+  transparent_image: ^2.0.1
+  flutter_html: ^2.2.1
+  flutter_launcher_icons: ^0.11.0
+  hive_flutter: ^1.1.0
+  universal_io: ^2.2.0
+  url_launcher: ^6.1.10
+  provider: ^6.0.5
+  carousel_slider: ^4.2.1
+  google_sign_in: ^6.1.0
+  flutter_facebook_auth: ^5.0.8
+  the_apple_sign_in: ^1.1.1
+  reactive_forms: ^14.1.0
+  reactive_phone_form_field: ^0.10.0
+  flutter_stripe: ^9.1.1
+  calendar_date_picker2: ^0.5.2
+  webview_flutter: ^2.8.0
+  lottie: ^2.3.2
+  flutter_native_splash: ^2.2.0+1
+  intl: ^0.17.0
+  share_plus: ^6.3.4
+  video_player: ^2.7.0
+
+flutter_native_splash:
+  android: true
+  ios: true
+  background_image: "assets/icons/fon.png"
+  image: "assets/icons/cv.png"
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icons/fav.png"
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^2.0.1
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/translations/
+    - assets/images/
+    - assets/icons/
+    - assets/icons/lang/
+
+  #fonts:
+      #  - family: Roboto
+      #fonts:
+      #  - asset: assets/fonts/Roboto.ttf
+      #  - asset: assets/fonts/Robotomedium.ttf
+      #  - asset: assets/fonts/Robotobold.ttf
+      #  - asset: assets/fonts/Robotoblack.ttf
+      #  - asset: assets/fonts/Robotolight.ttf
+      #  - asset: assets/fonts/Robotoitalic.ttf
+      #    style: italic
